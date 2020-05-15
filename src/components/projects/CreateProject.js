@@ -2,11 +2,13 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { createProject } from '../../store/actions/projectActions'
 import { Redirect } from 'react-router-dom'
+import firebase from '../../config/fbConfig'
 
 class CreateProject extends Component {
   state = {
     title: '',
-    content: ''
+    content: '',
+    parentId: firebase.firestore().doc('/projects/' + 'MAIN')
   }
   handleChange = (e) => {
     this.setState({
