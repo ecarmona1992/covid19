@@ -5,7 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #616161;
 }
+
+.card {
+  text-align: center;
+}
+.section{
+  width: 400px;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -27,4 +36,14 @@ input[type=password]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]){
   border-color: red;
   box-shadow: none;
+}
+@media screen and (max-width:1080px){
+  .section{
+    width: 280px;
+  }
+}
+@media screen and (max-width:680px){
+  .section{
+    width: 180px;
+  }
 }
