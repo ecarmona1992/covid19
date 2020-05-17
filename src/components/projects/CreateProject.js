@@ -8,7 +8,7 @@ class CreateProject extends Component {
   state = {
     title: '',
     content: '',
-    parentId: firebase.firestore().doc('/projects/' + 'MAIN')
+    parentId: '/projects/MAIN'
   }
   handleChange = (e) => {
     this.setState({
