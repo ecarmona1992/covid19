@@ -1,3 +1,11 @@
+## Group: Dance Gavin Dance
+## Members: Emanuel Carmona, Alex Morales, Pia Wetzel
+
+## ATTENTION: Required Installations for Charts and Graphs:
+npm install --save react-canvas-js
+npm install --save react-chartjs-2 chart.js
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
