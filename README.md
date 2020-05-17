@@ -1,8 +1,8 @@
-## Group: Dance Gavin Dance
-## Members: Emanuel Carmona, Alex Morales, Pia Wetzel
+### Group: Dance Gavin Dance
+### Members: Emanuel Carmona, Alex Morales, Pia Wetzel
 
 ## ATTENTION: Required Installations for Charts and Graphs:
-npm install --save react-canvas-js
+npm install --save react-canvas-js </br>
 npm install --save react-chartjs-2 chart.js
 
 
