@@ -1,3 +1,7 @@
+
+## LINK TO VIDEO
+https://www.youtube.com/watch?time_continue=1&v=F6Ah7pUNRFE&feature=emb_title
+
 ### Group: Dance Gavin Dance
 ### Members: Emanuel Carmona, Alex Morales, Pia Wetzel
 
